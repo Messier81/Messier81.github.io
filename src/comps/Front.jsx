@@ -14,11 +14,13 @@ export default class Front extends Component {
   render() {
     return (
       <div className="frontMain">
-        <Navbar sticky="top" bg="light" expand="lg">
+        <Navbar sticky="top" expand="lg" className="navBarMod">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Link href="#home">Projects</Nav.Link>
+            <Nav className="ml-auto">
+              <Nav.Link href="/" className="navLi">
+                Projects
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -35,12 +37,20 @@ export default class Front extends Component {
             </Row>
             <Row className="justify-content-center">
               <Col xs="auto">
-                <Button variant="light" className="socBut">
+                <Button
+                  href="https://github.com/Messier81"
+                  variant="light"
+                  className="socBut"
+                >
                   GITHUB
                 </Button>
               </Col>
               <Col xs="auto">
-                <Button variant="light" className="socBut">
+                <Button
+                  href="https://www.linkedin.com/in/sivanesan-vettivel-992318182/"
+                  variant="light"
+                  className="socBut"
+                >
                   LINKEDIN
                 </Button>
               </Col>

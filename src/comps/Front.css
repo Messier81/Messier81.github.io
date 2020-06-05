@@ -1,22 +1,30 @@
+/* General font from Google Fonts */
+.frontMain {
+  font-family: "Boogaloo";
+}
+
+/* Main screen, background set uo viewpoint */
 .mainJumbo {
   background-image: url("./pics/toronto.jpg");
   background-size: cover;
   height: 100vh;
   background-position: center;
 }
+
+/*Everything in main viewpoint is centered */
 .mainCont {
   text-align: center;
   margin-top: 13vh;
 }
+/* Main viewpoint text shadowed */
 .myName,
 .myDesc {
-  font-family: "Acme";
   font-size: 5em;
-  font-family: "Boogaloo";
   color: #fff;
   letter-spacing: 5px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+/* Make description readable */
 .myDesc {
   margin-bottom: 4vh;
   font-size: 3vh;
@@ -24,6 +32,12 @@
   border-bottom: solid 1px #fff;
   white-space: nowrap;
 }
-.socBut {
-  font-family: "Boogaloo";
+/* Nav */
+.navbar-light {
+  background-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
