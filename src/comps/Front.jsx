@@ -30,7 +30,7 @@ export default class Front extends Component {
             </Row>
             <Row className="justify-content-center">
               <Col xs="auto" className="myDesc">
-                Developer | Musician | Writer
+                Developer &middot; Musician &middot; Writer
               </Col>
             </Row>
             <Row className="justify-content-center">
