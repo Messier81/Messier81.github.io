@@ -6,22 +6,20 @@
 }
 .mainCont {
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 13vh;
 }
 .myName,
 .myDesc {
   font-family: "Acme";
-  font-size: 6em;
+  font-size: 5em;
   font-family: "Boogaloo";
-  line-height: 1;
   color: #fff;
   letter-spacing: 5px;
-  text-shadow: 1.25px 1.25px 1.25px rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 .myDesc {
-  margin-top: 4vh;
   margin-bottom: 4vh;
-  font-size: 3.5vh;
+  font-size: 2.5vh;
   padding-bottom: 5.5vh;
   border-bottom: solid 1px #fff;
   white-space: nowrap;
