@@ -1,0 +1,30 @@
+.mainJumbo {
+  background-image: url("./pics/toronto.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.mainCont {
+  text-align: center;
+  margin-top: 5%;
+}
+.myName,
+.myDesc {
+  font-family: Poppins, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  line-height: 1;
+  color: #fff;
+  letter-spacing: 5px;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.myDesc {
+  margin-top: 2.5%;
+  margin-bottom: 3.5%;
+  font-size: 2.5vh;
+  padding-bottom: 3.5%;
+  border-bottom: solid 2px #fff;
+  white-space: nowrap;
+}
