@@ -17,10 +17,18 @@ export default class Front extends Component {
         <Navbar sticky="top" expand="lg" className="navBarMod">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link href="/" className="navLi">
-                Projects
-              </Nav.Link>
+            <Nav className="mr-auto">
+              <Nav.Item>
+                <Nav.Link href="#aboutMe">About</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="/">Projects</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="https://drive.google.com/file/d/1H_R7-HmtfNkJyX62cjqSIhd95-ki4NI7/view">
+                  Resume
+                </Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -56,6 +64,48 @@ export default class Front extends Component {
               </Col>
             </Row>
           </Container>
+        </Jumbotron>
+
+        <Jumbotron fluid className="aboutMeJumbo" id="aboutMe">
+          <span className="aboutMeText">About Me</span>
+          <p className="aboutMePara">
+            <p>Hello there,</p>
+            <p>
+              I'm a recent graduate from York University with a bachelor's
+              degree in Computer Science.
+            </p>
+            <p>
+              My courses heavily focused on Computer Science, Math, and
+              Philosophy.
+            </p>
+            <p>
+              I design, build immersive and beautiful web applications through
+              carefully crafted code and user-centric design.
+            </p>
+            <p>
+              I am naturally curious, a problem solver, and a continuous
+              learner.
+            </p>
+            <p>
+              I have many years of experience in customer service as well as
+              teaching, which have taught me solid communication and conflict
+              resolution skills.
+            </p>
+            <p>
+              So are you looking for a hard-working, communicative and caring
+              developer?
+            </p>
+            <p>
+              I am super excited to work on ambitious projects with positive
+              people.
+            </p>
+            <p>
+              Check out my resume and feel free to contact me at the email
+              below.
+            </p>
+          </p>
+          <p className="emailText">Email</p>
+          <p className="actualEmail">nesanyorku@gmail.com</p>
         </Jumbotron>
       </div>
     );

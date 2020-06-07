@@ -1,6 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* General font from Google Fonts */
 .frontMain {
-  font-family: "Boogaloo";
+  font-family: "Josefin Sans";
 }
 
 /* Main screen, background set uo viewpoint */
@@ -9,6 +13,7 @@
   background-size: cover;
   height: 100vh;
   background-position: center;
+  margin-bottom: 0;
 }
 
 /*Everything in main viewpoint is centered */
@@ -40,4 +45,32 @@
   color: #000;
   padding-bottom: 0px;
   padding-top: 0px;
+}
+
+/* About Me */
+.aboutMeJumbo {
+  background-color: #012226;
+  margin-bottom: 0;
+  color: #fff;
+}
+.aboutMeText {
+  font-size: 4vh;
+  padding-left: 15vh;
+  text-decoration: underline;
+}
+.aboutMePara {
+  font-size: 2.5vh;
+  font-weight: normal;
+  padding-top: 5vh;
+  padding-left: 15vh;
+}
+.emailText,
+.actualEmail {
+  font-size: 2.5vh;
+  font-weight: normal;
+  padding-left: 15vh;
+}
+.emailText {
+  padding-top: 6vh;
+  text-decoration: underline;
 }
