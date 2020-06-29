@@ -3,34 +3,38 @@ import "./Front.css";
 
 //Bootstrap
 import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
+//Pics
+import GitPic from "./pics/github.svg";
+import LIPic from "./pics/linkedin.svg";
+
 export default class Front extends Component {
   render() {
     return (
       <div className="frontMain">
         <Navbar sticky="top" expand="lg" className="navBarMod">
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
-              <Nav.Item>
-                <Nav.Link href="#aboutMe">About</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="/">Projects</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="https://drive.google.com/file/d/1H_R7-HmtfNkJyX62cjqSIhd95-ki4NI7/view">
-                  Resume
-                </Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </Navbar.Collapse>
+          <Container fluid className="navRow">
+            <Row className="navRow">
+              <Col className="navCol">Nesan</Col>
+              <Col className="navCol">
+                <img className="DevLinkImg" src={GitPic} alt="GitHub Logo" />
+              </Col>
+              <Col className="navCol">
+                <img className="DevLinkImg" src={LIPic} alt="GitHub Logo" />
+              </Col>
+              <Col className="navCol">
+                <img className="DevLinkImg" src={GitPic} alt="GitHub Logo" />
+              </Col>
+              <Col className="navCol">
+                <img className="DevLinkImg" src={GitPic} alt="GitHub Logo" />
+              </Col>
+            </Row>
+          </Container>
         </Navbar>
 
         <Jumbotron fluid className="mainJumbo">
@@ -107,6 +111,7 @@ export default class Front extends Component {
           <p className="emailText">Email</p>
           <p className="actualEmail">nesanyorku@gmail.com</p>
         </Jumbotron>
+        <Jumbotron className="projJumbo">SEE THIS</Jumbotron>
       </div>
     );
   }

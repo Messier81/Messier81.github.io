@@ -35,7 +35,6 @@ html {
   font-size: 3vh;
   padding-bottom: 5.5vh;
   border-bottom: solid 1px #fff;
-  white-space: nowrap;
 }
 /* Nav */
 .navbar-light {
@@ -46,31 +45,58 @@ html {
   padding-bottom: 0px;
   padding-top: 0px;
 }
-
+.navBarMod {
+  padding: 0;
+  margin: 0;
+}
+.navCol {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navRow {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  box-shadow: 0px 0px 7px gray;
+}
+.navCol:hover {
+  background-color: rgb(239, 233, 235);
+}
+.DevLinkImg {
+  width: 75%;
+  height: 75%;
+}
 /* About Me */
 .aboutMeJumbo {
   background-color: #012226;
   margin-bottom: 0;
   color: #fff;
+
+  padding-left: 10vh;
 }
 .aboutMeText {
   font-size: 4vh;
-  padding-left: 15vh;
   text-decoration: underline;
 }
 .aboutMePara {
   font-size: 2.5vh;
   font-weight: normal;
   padding-top: 5vh;
-  padding-left: 15vh;
 }
 .emailText,
 .actualEmail {
   font-size: 2.5vh;
   font-weight: normal;
-  padding-left: 15vh;
 }
 .emailText {
   padding-top: 6vh;
   text-decoration: underline;
+}
+/* Projects */
+.projJumbo {
+  margin-bottom: 0px;
 }
