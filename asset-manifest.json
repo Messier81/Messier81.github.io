@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb3cbf5e.chunk.css",
+    "main.js": "/static/js/main.a79169c6.chunk.js",
+    "main.js.map": "/static/js/main.a79169c6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
+    "static/js/2.dc1c05d0.chunk.js": "/static/js/2.dc1c05d0.chunk.js",
+    "static/js/2.dc1c05d0.chunk.js.map": "/static/js/2.dc1c05d0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a575c2854f02003e010dedcb371e770c.js": "/precache-manifest.a575c2854f02003e010dedcb371e770c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bb3cbf5e.chunk.css.map": "/static/css/main.bb3cbf5e.chunk.css.map",
+    "static/js/2.dc1c05d0.chunk.js.LICENSE.txt": "/static/js/2.dc1c05d0.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.c4ce29f3.svg",
+    "static/media/css3.svg": "/static/media/css3.2ca88453.svg",
+    "static/media/email.svg": "/static/media/email.a14a6aee.svg",
+    "static/media/github.svg": "/static/media/github.617870e4.svg",
+    "static/media/html5.svg": "/static/media/html5.eb0bfe64.svg",
+    "static/media/javascript.svg": "/static/media/javascript.de79c8f1.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.619231ff.svg",
+    "static/media/project.svg": "/static/media/project.1f917513.svg",
+    "static/media/question.svg": "/static/media/question.2508df20.svg",
+    "static/media/react.svg": "/static/media/react.e9f3d01c.svg",
+    "static/media/resume.svg": "/static/media/resume.d758315c.svg",
+    "static/media/Front.css": "/static/media/toronto.0bd9b20f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5fc83a6.js",
+    "static/js/2.dc1c05d0.chunk.js",
+    "static/css/main.bb3cbf5e.chunk.css",
+    "static/js/main.a79169c6.chunk.js"
+  ]
+}
